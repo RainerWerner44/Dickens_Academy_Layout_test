@@ -1,0 +1,29 @@
+@import './header/header.css';
+@import './section-welcome/section-welcome.css';
+@import './section-advantages/section-advantages.css';
+@import './section-aboutUs/section-aboutUs.css';
+@Import './section-courses/section-courses.css';
+@import './section-call/section-call.css';
+@import './section-testimonials/section-testimonials.css';
+@import './section-faq/section-faq.css';
+@import './footer/footer.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--main-white-color);
+  font-family: 'Roboto', sans-serif; 
+}
+
+.main-container {
+  max-width: 1346px;
+  margin: 0 auto;
+}
