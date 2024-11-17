@@ -1,0 +1,59 @@
+.section-welcome {  
+  display: flex;
+  margin: 50px 0;
+  gap: 24px;
+}
+
+.welcome-title {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-blue);
+  padding: 100px 80px;
+  gap: 16px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.welcome-title > h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--main-white-color);
+}
+
+.welcome-title > p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--main-white-color);
+}
+
+.welcome-title > button {
+  margin-top: 24px;
+  padding: 14px 20px;
+  gap: 10px;
+  border-radius: 14px;
+  color: var(--dark-blue);
+  border: none;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.welcome-title > button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
